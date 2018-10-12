@@ -2,7 +2,11 @@
 A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 
 ## Example Markup
-<!DOCTYPE html>
+
+
+
+```
+		<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -25,7 +29,6 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 			<div class="vAnswer" data-vquiz="wrong">Ravi and Chenab</div>
 			<div class="vAnswer" data-vquiz="wrong">Ganga and Yamuna</div>
 		</div>
-
 		<div class="vQContainer">
 			<div class="vQustion">2. Under Akbar, the Mir Bakshi was required to look after</div>
 			<div class="vAnswer" data-vquiz="right">military affairs</div>
@@ -50,3 +53,4 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 	<script> vquiz(); </script>
 </body>
 </html>
+```
