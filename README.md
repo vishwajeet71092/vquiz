@@ -2,10 +2,10 @@
 A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 
 ## About Plugin
-######Plugin Name: vQuiz.js
-######Plugin version: 1.0.0
-######Plugin Author: vishwajeet kumar
-######Description: This is a small javascript plugin to create a quiz system on web with instant answer check and explanation on clicking any answer.
+###### Plugin Name: vQuiz.js
+###### Plugin version: 1.0.0
+###### Plugin Author: vishwajeet kumar
+###### Description: This is a small javascript plugin to create a quiz system on web with instant answer check and explanation on clicking any answer.
 
 ## How to Use
 1. Download **vquiz.js** and **vquiz.css**. 
@@ -42,6 +42,36 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
     </div>
    ```
    
+6. Put the options in a div with class vQustion and data-vquiz attribute should contain wrong ```data-vquiz="wrong"``` in case the option is wrong and right ```data-vquiz="right"``` in case it is the right option.
+
+   ```html
+    <div class="vquiz">
+	  <div class="vQContainer">
+		  <div class="vQustion"> 1. This is a Question ? </div>
+		  <div class="vAnswer" data-vquiz="wrong">Option 1</div>
+		  <div class="vAnswer" data-vquiz="right">Option 2</div>
+	  </div>  
+    </div>
+   ```
+   
+6. Put the Explanation textfor the answer in a div with class vHint. ```<div class="vHint">```
+
+   ```html
+    <div class="vquiz">
+	  <div class="vQContainer">
+		  <div class="vQustion"> 1. This is a Question ? </div>
+		  <div class="vAnswer" data-vquiz="wrong">Option 1</div>
+		  <div class="vAnswer" data-vquiz="right">Option 2</div>
+		  <div class="vHint">This is a Explanation for the answer.</div>
+	  </div>  
+    </div>
+   ```
+   
+ 7. Put this script before the closing body tag and after the vquiz.js
+ 
+ ````html
+ <script> vquiz(); </script>
+ ````
 
 
 ## Example Markup
