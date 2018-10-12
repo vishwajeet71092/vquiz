@@ -42,7 +42,7 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
     </div>
    ```
    
-6. Put the options in a div with class vQustion and data-vquiz attribute should contain wrong ```data-vquiz="wrong"``` in case the option is wrong and right ```data-vquiz="right"``` in case it is the right option.
+6. Put the options in a div with class vAnswer and data-vquiz attribute should contain wrong ```data-vquiz="wrong"``` in case the option is wrong and right ```data-vquiz="right"``` in case it is the right option.
 
    ```html
     <div class="vquiz">
@@ -54,7 +54,7 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
     </div>
    ```
    
-6. Put the Explanation textfor the answer in a div with class vHint. ```<div class="vHint">```
+6. Put the Explanation text in a div with class vHint. ```<div class="vHint">```
 
    ```html
     <div class="vquiz">
@@ -70,7 +70,7 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
  7. Put this script before the closing body tag and after the vquiz.js
  
  ````html
- <script> vquiz(); </script>
+    <script> vquiz(); </script>
  ````
 
 
@@ -93,32 +93,40 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 		<!-- vquiz question container div with class vQContainer -->
 		<div class="vQContainer">
 			<!-- vquiz question div with class vQuestion -->
-			<div class="vQustion">1. The territory of Porus who offered strong resistance to Alexander was situated between the rivers of</div>
+			<div class="vQustion">1. First operating system designed using C programming language.</div>
 			<!-- vquiz answer div with class vAnswer and data wrong or right -->
-			<div class="vAnswer" data-vquiz="wrong">Sutlej and Beas</div>
-			<div class="vAnswer" data-vquiz="right">Jhelum and Chenab</div>
+			<div class="vAnswer" data-vquiz="wrong"> DOS</div>
+			<div class="vAnswer" data-vquiz="wrong"> Windows</div>
+			<div class="vAnswer" data-vquiz="right"> UNIX</div>
+			<div class="vAnswer" data-vquiz="wrong"> Mac</div>
 			<!-- vquiz Explantion div with class vHint -->
-			<div class="vHint">No answer description available for this question. Let us discuss.</div>
-			<div class="vAnswer" data-vquiz="wrong">Ravi and Chenab</div>
-			<div class="vAnswer" data-vquiz="wrong">Ganga and Yamuna</div>
-		</div>
-
-		<div class="vQContainer">
-			<div class="vQustion">2. Under Akbar, the Mir Bakshi was required to look after</div>
-			<div class="vAnswer" data-vquiz="right">military affairs</div>
-			<div class="vHint">The head of the military was called the Mir Bakshi, appointed from among the leading nobles of the court. The Mir Bakshi was in charge of intelligence gathering, and also made recommendations to the emperor for military appointments and promotions.</div>
-			<div class="vAnswer" data-vquiz="wrong">the state treasury</div>
-			<div class="vAnswer" data-vquiz="wrong">the royal household</div>
-			<div class="vAnswer" data-vquiz="wrong">the land revenue system</div>
+			<div class="vHint">UNIX. C actually invented to write an operation system called UNIX. By 1973 the entire UNIX OS is designed using C.</div>
 		</div>
 		
+		<!-- vquiz question container div with class vQContainer -->
 		<div class="vQContainer">
-			<div class="vQustion">There were widespread risings against the British in the 1820s. Which one of the following did not revolt in the 1820s?</div>
-			<div class="vAnswer" data-vquiz="wrong">Santhals</div>
-			<div class="vAnswer" data-vquiz="wrong">Ahoms</div>
-			<div class="vAnswer" data-vquiz="right">Pagal Panthis</div>
-			<div class="vHint">No answer description available for this question. Let us discuss.</div>
-			<div class="vAnswer" data-vquiz="wrong">Ramosi</div>
+			<!-- vquiz question div with class vQuestion -->
+			<div class="vQustion">2. The correct order of mathematical operators in mathematics and computer programming,</div>
+			<!-- vquiz answer div with class vAnswer and data wrong or right -->
+			<div class="vAnswer" data-vquiz="wrong"> Addition, Subtraction, Multiplication, Division</div>
+			<div class="vAnswer" data-vquiz="right"> Division, Multiplication, Addition, Subtraction</div>
+			<div class="vAnswer" data-vquiz="wrong"> Multiplication, Addition, Division, Subtraction</div>
+			<div class="vAnswer" data-vquiz="wrong">Mathematical operators can be done in any order</div>
+			<!-- vquiz Explantion div with class vHint -->
+			<div class="vHint">It is BODMAS.</div>
+		</div>
+
+		<!-- vquiz question container div with class vQContainer -->
+		<div class="vQContainer">
+			<!-- vquiz question div with class vQuestion -->
+			<div class="vQustion">3. Choose the correct statement that can retrieve the remainder of the division 5.5 by 1.3?</div>
+			<!-- vquiz answer div with class vAnswer and data wrong or right -->
+			<div class="vAnswer" data-vquiz="wrong"> rem = modf(5.5 % 1.3)</div>
+			<div class="vAnswer" data-vquiz="wrong"> rem = modf(5.5, 1.3)</div>
+			<div class="vAnswer" data-vquiz="right"> rem = fmod(5.5, 1.3)</div>
+			<div class="vAnswer" data-vquiz="wrong"> rem = f(5.5, 1.3)</div>
+			<!-- vquiz Explantion div with class vHint -->
+			<div class="vHint">A floating-point constant without an f, F, l, or L suffix has type double. If the letter f or F is the suffix, the constant has type float. If suffixed by the letter l or L, it has type long double.</div>
 		</div>
 	</div>
 	<!-- link vquiz.js (required) -->
@@ -128,3 +136,4 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 </body>
 </html>
 ```
+
