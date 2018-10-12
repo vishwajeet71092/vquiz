@@ -3,34 +3,45 @@ A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 
 ## About Plugin
 Plugin Name: vQuiz.js
-
 Plugin version: 1.0.0
-
 Plugin Author: vishwajeet kumar
-
 Description: This is a small javascript plugin to create a quiz system on web with instant answer check and explanation on clicking any answer.
 
 ## How to Use
 1. Download **vquiz.js** and **vquiz.css**. 
 2. Put it in your project directory and link it on the page.
+
     ```html
     <!-- link vquiz.css (required) -->
     <link rel="stylesheet" href="vquiz.css">
     <!-- link vquiz.js (required) -->
     <script src="vquiz.min.js"></script>
     ```
+    
 3. Create a div with id vquiz ```<div id="vquiz">``` . This is the main container of quiz system.
+
    ```html
    <div class="vquiz"> </div>
    ```
-4. To create a question and answer block create a div with class vQContainer ```<div class="vQContainer">```
+   
+4. To create a question and answer block create a div with class vQContainer inside vquiz div ```<div class="vQContainer">```
+
    ```html
-   <div class="vQContainer"> </div>
+    <div class="vquiz">
+	  <div class="vQContainer"> </div>  
+    </div>
    ```
+   
 5. Put the question in a div with class vQustion ```<div class="vQustion">```
+
    ```html
-   <div class="vQContainer"> </div>
+    <div class="vquiz">
+	  <div class="vQContainer">
+		  <div class="vQustion"> 1. This is a Question ? </div>
+	  </div>  
+    </div>
    ```
+   
 
 
 ## Example Markup
