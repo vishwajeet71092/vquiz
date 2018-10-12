@@ -1,5 +1,6 @@
 /*
 Plugin Name: vQuiz.js
+Plugin version: 1.0.0
 Plugin Author: vishwajeet kumar
 About Plugin: This is a small javascript plugin to create a quiz system on web with instant answer check and explanation on clicking any answer.
  */
