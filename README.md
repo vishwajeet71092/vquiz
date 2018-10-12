@@ -2,10 +2,10 @@
 A JavaScript Plugin to create quiz system with only HTML Markup and attribute.
 
 ## About Plugin
-Plugin Name: vQuiz.js
-Plugin version: 1.0.0
-Plugin Author: vishwajeet kumar
-Description: This is a small javascript plugin to create a quiz system on web with instant answer check and explanation on clicking any answer.
+######Plugin Name: vQuiz.js
+######Plugin version: 1.0.0
+######Plugin Author: vishwajeet kumar
+######Description: This is a small javascript plugin to create a quiz system on web with instant answer check and explanation on clicking any answer.
 
 ## How to Use
 1. Download **vquiz.js** and **vquiz.css**. 
